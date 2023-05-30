@@ -2,8 +2,14 @@ import gitHubIcon from "./gitHub-black.svg";
 import "./style.css";
 
 const BtnGitHub = ({ link }) => {
+  const imgCover = document.querySelectorAll(".project-details__cover");
   return (
-    <a href={link} target="_blank" rel="noreferrer" className="btn-outline">
+    <a
+      href="https://robertkarapetyan02.github.io/"
+      target="_blank"
+      rel="noreferrer"
+      className="btn-outline"
+    >
       <img src={gitHubIcon} alt="" />
       GitHub repo
     </a>
