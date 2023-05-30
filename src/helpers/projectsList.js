@@ -22,7 +22,7 @@ const projects = [
     skills: "HTML, CSS, JS",
     img: project01,
     imgBig: project01Big,
-    gitHubLink: "https://github.com",
+    gitHubLink: "https://robertkarapetyan02.github.io/",
   },
   {
     title: "Video service",
